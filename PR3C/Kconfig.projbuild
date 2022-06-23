@@ -1,0 +1,11 @@
+menu "PRACTICE SETTINGS"
+
+    # Para configurar el uso del sensor de infrarojos.
+
+    config IR_RESET_INPUT
+    bool "Use IR sensor to trigger reset"
+    default yes
+    help
+        Use IR sensor instead of hall sensor to trigger reset. Connect to pin 14.
+
+endmenu

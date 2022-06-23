@@ -1,0 +1,12 @@
+menu "PRACTICE SETTINGS"
+
+    # Para configurar el periodo de muestreo
+
+    config SAMPLE_PERIOD
+    int "Periodo de muestreo en milisegundos"
+    default 1000
+    range 100 100000
+    help
+        Ajusta el periodo de muestreo en milisegundos
+
+endmenu
